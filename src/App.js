@@ -2,6 +2,7 @@ import Primeiro from "./components/basic/Primeiro";
 import Segundo from "./components/basic/Segundo";
 import Card from "./components/layout/Card";
 import ParOuImpar from "./components/basic/ParOuImpar";
+import UserInfo from "./components/basic/UserInfo";
 import './App.css';
 
 const app = () => {
@@ -19,6 +20,7 @@ const app = () => {
                 <Card title="Condicional #1" color="#FF00FF">
                     <ParOuImpar numero={16} />
                     <ParOuImpar numero={7} />
+                    <UserInfo user={{ nome: 'Carlos'}} />
                 </Card>
             </div>
         </div>
