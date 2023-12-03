@@ -7,11 +7,11 @@ const app = () => {
     return (
         <div className="App">
             <div className="Cards">
-                <Card title="Primeiro">
+                <Card title="Primeiro" color="#FFBF00">
                     <Primeiro />
                     <Primeiro />
                 </Card>
-                <Card title="Segundo">
+                <Card title="Segundo" color="#DE3163">
                     <Segundo />
                     <Segundo />
                 </Card>
