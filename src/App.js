@@ -3,6 +3,7 @@ import Segundo from "./components/basic/Segundo";
 import Card from "./components/layout/Card";
 import ParOuImpar from "./components/basic/ParOuImpar";
 import UserInfo from "./components/basic/UserInfo";
+import OnClick from "./components/basic/OnClick";
 import './App.css';
 
 const app = () => {
@@ -21,6 +22,9 @@ const app = () => {
                     <ParOuImpar numero={16} />
                     <ParOuImpar numero={7} />
                     <UserInfo user={{ nome: 'Carlos'}} />
+                </Card>
+                <Card title="onClick" color="#AA3163">
+                    <OnClick />
                 </Card>
             </div>
         </div>
