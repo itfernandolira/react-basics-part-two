@@ -4,6 +4,7 @@ import Card from "./components/layout/Card";
 import ParOuImpar from "./components/basic/ParOuImpar";
 import UserInfo from "./components/basic/UserInfo";
 import OnClick from "./components/basic/OnClick";
+import ElementParent from "./components/basic/ElementParent";
 import './App.css';
 
 const app = () => {
@@ -25,6 +26,9 @@ const app = () => {
                 </Card>
                 <Card title="onClick" color="#AA3163">
                     <OnClick />
+                </Card>
+                <Card title="Binding" color="#AC3163">
+                    <ElementParent />
                 </Card>
             </div>
         </div>
