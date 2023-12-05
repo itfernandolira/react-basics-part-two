@@ -6,6 +6,7 @@ import UserInfo from "./components/basic/UserInfo";
 import OnClick from "./components/basic/OnClick";
 import ElementParent from "./components/basic/ElementParent";
 import Uncontrolled from "./components/basic/Uncontrolled";
+import Controlled from "./components/basic/Controlled";
 import './App.css';
 
 const app = () => {
@@ -33,6 +34,9 @@ const app = () => {
                 </Card>
                 <Card title="Uncontrolled" color="#BF3163">
                     <Uncontrolled />
+                </Card>
+                <Card title="Controlled" color="#FF3163">
+                    <Controlled />
                 </Card>
             </div>
         </div>
